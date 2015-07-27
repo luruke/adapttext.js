@@ -1,17 +1,22 @@
 :raised_hands: AdaptText.js v1.0
 ==============
-**AdaptText.js** is a dependency free and simple javascript solution capable to fit your text inside the parent element\
-It calculates the **maximum font-size** possibile in order to keep the text's **width** and **height** inside the parent.\
+**AdaptText.js** is a dependency free and simple javascript solution capable to fit your text inside the parent element.
+
+It calculates the **maximum font-size** possibile in order to keep the text's **width** and **height** inside the parent.
+
 It's very useful in **responsive** situation and where we don't know in advance the text's length (text pulled from a CMS?). It is also very handy when we need to display text along an image and we want to avoid overlaps.
 
 ![demo](http://i.imgur.com/dpRozWf.gif "Demo")
 
 Installation
 -----
-*AdaptText.js* supports **AMD**, **CommonJS** and **Browser global** (it uses [UMD](https://github.com/umdjs/umd))\
-You can install it using [bower](http://bower.io): `bower install adaptext --save-dev`\
-You can install it using npm: `bower install adaptext --save-dev`\
-or just including the script in your page:\
+*AdaptText.js* supports **AMD**, **CommonJS** and **Browser global** (it uses [UMD](https://github.com/umdjs/umd))
+
+You can install it using [bower](http://bower.io): `bower install adaptext --save-dev`
+
+You can install it using npm: `bower install adaptext --save-dev`
+
+or just including the script in your page:
 `<script src="AdaptText.js" type="text/javascript"></script>`
 
 Usage
@@ -87,6 +92,8 @@ TODO
 
 Other
 -----
-AdaptText.js is released under the **MIT** License and it's made by **Luigi De Rosa**.\
-The photo used in the demo is courtesy of https://unsplash.com/danielacuevas\
+AdaptText.js is released under the **MIT** License and it's made by **Luigi De Rosa**.
+
+The photo used in the demo is courtesy of https://unsplash.com/danielacuevas
+
 Issue & Pull Requests are more than welcome!!
