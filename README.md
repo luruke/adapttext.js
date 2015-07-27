@@ -14,6 +14,8 @@ Installation
 
 You can install it using [bower](http://bower.io): `bower install AdaptText.js --save-dev`
 
+You can install it using [npm](https://www.npmjs.com): `npm install adapttext.js --save-dev`
+
 or just including the script in your page:
 ```
 <script src="AdaptText.js" type="text/javascript"></script>
