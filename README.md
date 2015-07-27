@@ -1,6 +1,6 @@
-:raised_hands: AdaptText.js v1.0
+:raised_hands: adapttext.js v1.0.1
 ==============
-**AdaptText.js** is a dependency free and simple javascript solution capable to fit your text inside the parent element.
+**adapttext.js** is a dependency free and simple javascript solution capable to fit your text inside the parent element.
 
 It calculates the **maximum font-size** possibile in order to keep the text's **width** and **height** inside the parent.
 
@@ -10,15 +10,15 @@ It's very useful in **responsive** situation and where we don't know in advance 
 
 Installation
 -----
-*AdaptText.js* supports **AMD**, **CommonJS** and **Browser global** (it uses [UMD](https://github.com/umdjs/umd))
+*adapttext.js* supports **AMD**, **CommonJS** and **Browser global** (it uses [UMD](https://github.com/umdjs/umd))
 
-You can install it using [bower](http://bower.io): `bower install AdaptText.js --save-dev`
+You can install it using [bower](http://bower.io): `bower install adapttext.js --save-dev`
 
 You can install it using [npm](https://www.npmjs.com): `npm install adapttext.js --save-dev`
 
 or just including the script in your page:
 ```
-<script src="AdaptText.js" type="text/javascript"></script>
+<script src="adapttext.js" type="text/javascript"></script>
 ```
 
 Usage
@@ -50,7 +50,7 @@ If you're using jQuery in your project you can use
 $('.mybox').adaptText(options);
 ```
 
-If you need the *AdaptText.js* instance later:
+If you need the *adapttext.js* instance later:
 ```
 var instance = $('.mybox').data('adaptText');
 instance.destroy();
@@ -58,7 +58,7 @@ instance.destroy();
 
 Options
 -----
-*AdaptText.js* also accept some optional options:
+*adapttext.js* also accept some optional options:
 ```
 new AdaptText(el, {
     minFontSize: 10, //define in px the minimum font size possible
@@ -94,7 +94,7 @@ TODO
 
 Other
 -----
-AdaptText.js is released under the **MIT** License and it's made by **Luigi De Rosa**.
+adapttext.js is released under the **MIT** License and it's made by **Luigi De Rosa**.
 
 The photo used in the demo is courtesy of https://unsplash.com/danielacuevas
 

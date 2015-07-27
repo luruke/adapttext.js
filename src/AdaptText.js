@@ -1,5 +1,5 @@
 /*!
- * AdaptText.js v1.0 - https://github.com/luruke/AdaptText.js
+ * adapttext.js v1.0.1 - https://github.com/luruke/AdaptText.js
  * MIT License
  */
 

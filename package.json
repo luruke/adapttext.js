@@ -1,8 +1,8 @@
 {
   "name": "adapttext.js",
-  "version": "1.0.0",
-  "description": "AdaptText.js is a dependency free and simple javascript solution capable to fit your text inside the parent element.",
-  "main": "src/AdaptText.js",
+  "version": "1.0.1",
+  "description": "adapttext.js is a dependency free and simple javascript solution capable to fit your text inside the parent element.",
+  "main": "src/adapttext.js",
   "directories": {
     "test": "test"
   },
@@ -13,7 +13,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/luruke/AdaptText.js"
+    "url": "git://github.com/luruke/adapttext.js"
   },
   "keywords": [
     "responsive",

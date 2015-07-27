@@ -1,11 +1,11 @@
 {
-  "name": "AdaptText.js",
-  "main": "src/AdaptText.js",
+  "name": "adapttext.js",
+  "main": "src/adapttext.js",
   "version": "1.0",
   "authors": [
     "Luigi De Rosa <lurukee@gmail.com>"
   ],
-  "description": "AdaptText.js is a dependency free and simple javascript solution capable to fit your text inside the parent element.",
+  "description": "adapttext.js is a dependency free and simple javascript solution capable to fit your text inside the parent element.",
   "moduleType": [
     "amd",
     "globals",
@@ -27,6 +27,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/luruke/AdaptText.js"
+    "url": "git://github.com/luruke/adapttext.js"
   }
 }
