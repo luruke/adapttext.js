@@ -12,12 +12,12 @@ Installation
 -----
 *AdaptText.js* supports **AMD**, **CommonJS** and **Browser global** (it uses [UMD](https://github.com/umdjs/umd))
 
-You can install it using [bower](http://bower.io): `bower install adaptext --save-dev`
-
-You can install it using npm: `bower install adaptext --save-dev`
+You can install it using [bower](http://bower.io): `bower install AdaptText.js --save-dev`
 
 or just including the script in your page:
-`<script src="AdaptText.js" type="text/javascript"></script>`
+```
+<script src="AdaptText.js" type="text/javascript"></script>
+```
 
 Usage
 -----

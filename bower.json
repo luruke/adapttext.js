@@ -1,11 +1,11 @@
 {
-  "name": "AdaptText",
-  "main": "AdaptText.js",
+  "name": "AdaptText.js",
+  "main": "src/AdaptText.js",
   "version": "1.0",
   "authors": [
     "Luigi De Rosa <lurukee@gmail.com>"
   ],
-  "description": "shrink your text..",
+  "description": "AdaptText.js is a dependency free and simple javascript solution capable to fit your text inside the parent element.",
   "moduleType": [
     "amd",
     "globals",
@@ -14,7 +14,8 @@
   "keywords": [
     "responsive",
     "text",
-    "resize"
+    "resize",
+    "fit"
   ],
   "license": "MIT",
   "ignore": [
@@ -23,5 +24,9 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/luruke/AdaptText.js"
+  }
 }
