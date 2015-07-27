@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+  <head>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <style>
+      html, body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+      }
+      body {
+        background-image: url(https://download.unsplash.com/photo-1434697266846-9cf38403d8ef);
+        background-size: cover;
+        background-position: 50% 0%;
+      }
+      #my-container {
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+        width: 500px;
+        height: 200px;
+        position: absolute;
+        right: 3%;
+        top: 5%;
+        width: 57%;
+        height: 21%;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div id="my-container">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
+
+    <script src="../src/AdaptText.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        new AdaptText(document.getElementById('my-container'), {
+          callback: function(newFontSize) {
+            console.log('new font-size is ', newFontSize);
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

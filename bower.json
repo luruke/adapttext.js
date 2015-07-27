@@ -1,0 +1,27 @@
+{
+  "name": "AdaptText",
+  "main": "AdaptText.js",
+  "version": "1.0",
+  "authors": [
+    "Luigi De Rosa <lurukee@gmail.com>"
+  ],
+  "description": "shrink your text..",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "responsive",
+    "text",
+    "resize"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

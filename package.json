@@ -1,0 +1,14 @@
+{
+  "name": "AdaptText",
+  "version": "1.0.0",
+  "description": "- What is AdaptText is a dependency free and lightway javascript solution (10kb...) in order to fit the text inside a parent. It calculate the maximum font-size possibile in order to fit a text inside the parent (both calculating width and height).",
+  "main": "adaptText.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
